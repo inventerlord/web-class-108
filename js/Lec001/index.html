@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript lec001</title>
+</head>
+<body>
+    
+    <img src="1.jpg" alt="" id="img" style="width: 200px;">
+    <script>
+
+       let b= 10;
+       const a = 3.14;
+       let z;
+       console.log(a);
+       console.log(b);
+
+    //    datatypes
+    // number
+    let age = 18;
+    console.log(`age = ${age}, type ${typeof(age)}`);
+    
+    // string
+    let name = "Muhammad Abidi";
+    console.log(`name = ${name}, type ${typeof(name)}`);
+    // object
+    let person = {
+        firstname:"Muhammad",
+        secondName:"Abidi",
+        age:13
+    }
+    console.log(person);
+    console.log(`type ${typeof(person)}`);
+    // undefined
+    let u;
+    console.log(typeof(u));
+    // null
+    let h = null;
+    console.log(typeof(h));
+
+    let myimg = document.getElementById('img');
+    console.log(myimg);
+    </script>
+</body>
+</html>
